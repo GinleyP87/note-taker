@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-//calls styles
+//call styles
 app.use("/assets", express.static("./public/assets"));
 
 
